@@ -8,7 +8,7 @@ namespace LeetCodeContest.Tests
         public void Check(int inputData, int expected)
         {
             var solver = new Task4();
-            var result = solver.Solve();
+            var result = solver.Solve(0);
 
             Assert.Equal(expected, result);
         }
